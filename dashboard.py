@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # อ่านข้อมูลจากไฟล์ Excel
-uploaded_file = 'ไฟล์รวมคะแนน (สมาชิกสภาเทศบาล.เทศบาลเมืองศรีสะเกษ) พ.ศ. 2568 (ทดสอบ).xlsx'
+uploaded_file = 'ไฟล์รวมคะแนน.xlsx'
 df = pd.read_excel(uploaded_file, sheet_name=None)
 
 # รวมทุก sheet เข้าเป็น DataFrame เดียว
